@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Make My Trip  Site Automation Test Suite">
+
+<listeners>
+<listener class-name= "com.mmt.qa.ExtentReporterListener.ExtentReporterNG" />
+ </listeners>
+
+
+<test name = "Make My Trip Site Test Cases">
+    <classes>
+      <class name="com.mmt.qa.tests.LoginPageTest"></class>
+      <class name="com.mmt.qa.tests.HomePageTest"></class>
+    </classes>
+  </test> 
+ 
+</suite>
+
+<!-- /*Sequence of these (classes to be tested) can be changed as per requirements*/ -->
+<!-- /Many TestNG xml files can be created based on type of test (smoke, sanity, Regression etc(testng_regression.xml). But the name of each xml file should be different -->
